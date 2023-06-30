@@ -1,0 +1,39 @@
+.graphic-container{
+    background-image: url('src/assets/GraphicDesign.png');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: left;
+   height: 100vh;
+   width: 100vw;
+   
+    align-items: center;
+}
+.graphic-content-container{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+
+}
+.items{
+    text-align: right;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    
+
+    
+}
+.heading{
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

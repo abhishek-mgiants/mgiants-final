@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-container{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;    
+}
+.home-content-container{  
+  display:grid;
+  grid-template-columns: 1fr 1fr; 
+  
+}
+.hero-img{
+    background-image: url('src/assets/mascot.jpg');
+    background-position: center;
+    background-size: contain;  
+    background-color: black;
+    border-radius: 10px;
+    
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr ;   
+}
+
+
+/* .icons.whtsap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #D8E2DC;
+    float: left;
+    transition: all 0.5s ease;
+}
+.icons.whtsap:hover{
+  border: 5px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+} */
+
+/* .fa-whatsapp:hover{
+  font-size: 40px;
+    
+    transition: transform 0.3s, font-size 0.3s;
+} */
+
+
+/*  whatsapp hover effect*/
+.fa-whatsapp{
+  transition: all 0.4s ease-in-out;
+  padding: 10px 40px;
+  
+}
+.fa-whatsapp:hover{
+  transform: scale(1.5);
+  filter: drop-shadow(0 0 5px white);
+}
+
+.fa-linkedin{
+   transition: all 0.4s ease-in-out;
+  padding: 20px 40px;
+  font-size: 22px;
+}
+.fa-linkedin:hover{
+    transform: scale(1.5);
+  filter: drop-shadow(0 0 5px white);
+}
+.fa-instagram{
+ transition: all 0.4s ease-in-out;
+  padding: 10px 40px;
+  font-size: 25px;
+}
+.fa-instagram:hover{
+  transform: scale(1.5);
+  filter: drop-shadow(0 0 5px white);
+}
+
+.fa-facebook{
+   transition: all 0.4s ease-in-out;
+  padding: 10px 40px;
+  font-size: 25px;
+}
+.fa-facebook:hover{
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 5px white);
+}
+
+
+/* .fa-solid:hover{
+    font-size: 30px;
+    padding: 8px 12px;
+    transition: transform 0.3s, font-size 0.3s; 
+} */
+.content-item{
+  width: 500px;
+  height: 500px;
+  display:  grid;
+  grid-template-rows:1fr 1fr 1fr;  
+}
+.content-logo{
+  display:  flex;
+  justify-content: left;
+  align-items: center;
+  height: 100px;
+  margin-top: 100px;
+}
+.logoImg{
+  width: 250px;
+  height: 240px;
+}
+.content-heading{
+  text-align: left;
+  padding-left: 30px;
+  height: 100px;
+}
+.content-heading h2{
+  font-family: Oswald;
+  font-weight: bold;
+}
+.connect-button{
+  background-color: olive;
+  color: wheat;
+  width: 200px;
+  height: 40px;
+  margin-left: 30px;
+}
+.connectBtn{
+  padding-top: 0px;
+}
+.connect-button:hover{
+  background-color: white;
+  color: black;
+}
+

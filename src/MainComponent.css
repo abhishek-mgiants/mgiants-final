@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}  
+body{
+    background-color: black;
+}
+
+
+#clients{
+    height: 100vh;
+}
+#contactus{
+    height: 100vh;
+}
+
+
+.main-components {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    transition: all 0.1s;
+  }
+  
+  .scroll-snap {
+    scroll-snap-align: start;
+  }
+  

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main-home-container{
+    background: url("src/assets/mgiantsbg.jpg");
+    background-position: center;
+    background-size: 80vw 100vh;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 100vh;  
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    /* border: 1px solid red; */
+    
+}
+.image-container{
+    width: 50vw;
+    height: 100vh;
+    margin-left: 6vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr  ;
+    
+}
+.first{
+   color: white;
+    
+}
+.fa-whatsapp{
+    margin-top: 46vh;
+    margin-left: 12vw ;
+    transition: all 0.4s;
+}
+.fa-whatsapp:hover{
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 5px white);
+}
+
+.second{
+color: white;
+ 
+}
+.fa-linkedin{
+    margin-top: 51vh;
+    margin-left: 12.5vw ;
+    font-size: 24px ;
+    transition: all 0.4s;
+}
+.fa-linkedin:hover{
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 5px white);
+}
+
+
+.third{
+color: white;
+ 
+}
+.fa-instagram{
+    padding: 0;
+    margin-top: 3vh;
+    margin-left: 9.2vw;
+    font-size: 24px;
+    transition: all 0.4s;
+}
+.fa-instagram:hover{
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 5px white);
+}
+
+.fourth{
+color: white;
+}
+.fa-facebook{
+    margin-top: 16vh;
+    margin-left: 15.5vw ;
+    padding: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+}
+.fa-facebook:hover{
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 5px white);
+}
+.home-info-container{
+    width: 40vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.mgiants-logo{
+  height: 200px;
+}
+
+.mgiants-logo img{
+    margin-top: 120px;
+     
+     width: 242px;
+     height: 240px;
+}
+.catchy-line h2{
+    margin-top:100px ;
+    font-family: Oswald;
+    font-weight: bold;
+    margin-left: 25px;
+ 
+}
+.home-aboutus-cta button{
+    color: white;
+    background-color: olive;
+    width: 190px;
+    height: 46px;
+    margin-left: 29px;
+    font-size: 22px;
+    margin-top: 30px;
+    
+}
+.home-aboutus-cta button:hover{
+    color: black;
+    background-color: white;
+}

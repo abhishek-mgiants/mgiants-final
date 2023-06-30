@@ -1,0 +1,38 @@
+.web-container{
+    background-image: url('src/assets/WebDevelopment.png');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.web-content-container{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    gap: 10px;
+
+}
+.items{
+    
+    text-align: right;
+    padding-left: 50px;
+    font-size: 1.1rem;
+    margin-left: 5%;
+    
+
+    
+}
+.heading{
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: cyan;
+   text-align: left;
+    
+}

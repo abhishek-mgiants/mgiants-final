@@ -1,0 +1,71 @@
+.clients-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 15vh;
+  }
+  
+  .clients-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  .clients-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 806px;
+    height: 406px;
+    gap: 40px;
+    background-color: #000;
+    border-radius: 5px;
+    margin: auto;
+    padding: 3px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: transparent;
+  }
+  
+  .client-cell {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #000;
+    /* border: 2px solid #fff; */
+    /* border-radius: 50%; */
+    transition: all 0.3s ease-in-out; /* Adding transition property */
+  }
+  
+  .client-cell:hover {
+    border: 3px solid cyan;
+    transform: scale(1.05); /* Enlarge the element slightly */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6); /* Add a glowing effect */
+    background-color: rgba(0, 0, 0, 0.8); /* Darken the background */
+  }
+  
+  
+  /* .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0.7;
+    transition: height 0.7s;
+    z-index: 1;
+    border-radius: 50%;
+  } */
+  
+  .client-name {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+  }
+  

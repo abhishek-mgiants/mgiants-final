@@ -1,5 +1,8 @@
+import Alpha from "./Alpha";
 import "./App.css";
+
 import MainComponent from "./MainComponent";
+ 
 // import Home from "./components/Home/Home";
 import MainComponentRenderer from "./components/MainComponentRenderer";
 
@@ -9,9 +12,11 @@ const App = () => {
     {/* <Routes>
         <Route path="/" element={<MainComponent/>}/>  
         </Routes>    */}
-      <MainComponent />
+      {/* <MainComponent /> */}
       {/* <MainComponentRenderer/> */}
       {/* <Home/> */}
+      <Alpha/>
+       
     </>
   );
 };

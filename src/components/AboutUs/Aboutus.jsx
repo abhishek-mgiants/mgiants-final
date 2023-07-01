@@ -1,7 +1,9 @@
 import './AboutUs.css'
 import OurTeam from '../OurTeam/OurTeam'
 import MgiantsInfo from '../Mgiants-info/MgiantsInfo'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Aboutus = () => {
   const [showInfo, setShowInfo]=useState(true);
   const [showMgiants, setShowMgiants]= useState(false);
@@ -45,7 +47,7 @@ const Aboutus = () => {
   
    {showInfo && <div className='about-container' >
           <div className='about-content-container' >
-              <div className='item about-left'>
+              <div  className='item about-left'>
                   <img className='about-img' onClick={handleMgiantsClick} src="src/assets/mgiantsSky.jpg" alt="" />
               </div>
               <div className='item about-right'>

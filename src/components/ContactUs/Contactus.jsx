@@ -26,7 +26,7 @@ const Contactus = () => {
               <label htmlFor="Email">Email:</label>
               <input type="email" name="Email" id="" />
 
-              <label htmlFor="Service">Select a Service:</label>
+              {/* <label htmlFor="Service">Select a Service:</label>
               <select name="Service" id="" style={{ marginBottom: '5px', marginTop: '20px' }}>
                 <option value="Digital Marketing">Digital Marketing</option>
                 <option value="Branding">Branding</option>
@@ -34,7 +34,7 @@ const Contactus = () => {
                 <option value="App Development">App Development</option>
                 <option value="Graphic Design">Graphic Design</option>
               </select>
-              <hr />
+              <hr /> */}
 
               <label htmlFor="Message">Share your thoughts:</label>
               <textarea name="Message" id="textmessage" cols="30" rows="4"></textarea>

@@ -21,9 +21,7 @@ body{
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-    transition: all 0.1s;
   }
-  
   .scroll-snap {
     scroll-snap-align: start;
   }

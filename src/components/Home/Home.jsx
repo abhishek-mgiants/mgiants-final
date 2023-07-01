@@ -12,7 +12,6 @@ const Home = () => {
         
               <div className="icon-item first">
               <button className='whatsapp-btn'><i className="fa-brands fa-whatsapp fa-2xl"></i></button>
-
               </div>
               <div className="icon-item second">
               <button className='linkedin-btn' ><i className="fa-brands fa-linkedin"></i></button>

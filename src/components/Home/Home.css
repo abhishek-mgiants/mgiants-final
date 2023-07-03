@@ -90,6 +90,8 @@ color: white;
     width: 40vw;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    height: 85vh;
+    
 }
 .mgiants-logo{
   height: 200px;
@@ -104,6 +106,7 @@ color: white;
 .catchy-line{
     
     margin-bottom: 30px;
+    height: 100px; 
 }
 .catchy-line h2{
     margin-top:50px ;
@@ -113,11 +116,10 @@ color: white;
     font-size: 32px;
     letter-spacing: 3px;
     line-height: 40px;
- 
 }
 .home-aboutus-cta{
+    height: 50px;
     
-    margin-bottom: 120px;
 }
 .home-aboutus-cta button{
     color: white;

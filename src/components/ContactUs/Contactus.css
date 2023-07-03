@@ -39,6 +39,7 @@
 
 .contact-img-container {
   width: 700px;
+
 }
 
 .contact-form {
@@ -114,7 +115,7 @@ select {
   
 }
 .contact-icons{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .icon-details {
@@ -128,10 +129,9 @@ select {
 .icon.active .icon-details {
   opacity: 1;
   visibility: visible;
-  font-size: 20px;
-  border-top: 3px solid white;
+  font-size: 18px;
   filter: drop-shadow(0 5px 20px white);
   color: cyan;
-  font-weight: 600;
+  
   
 }

@@ -70,7 +70,7 @@ const Contactus = () => {
           onMouseLeave={handleIconLeave}
         >
           {hoveredIcon !== 'mail' && <i className="fa-solid fa-envelope contact-icons"></i>}
-          <div className="icon-details">example@mgiants.com</div>
+          <div className="icon-details">info@mgiants.com</div>
         </div>
       </div>
     </>

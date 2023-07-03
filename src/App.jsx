@@ -1,5 +1,6 @@
 import Alpha from "./Alpha";
 import "./App.css";
+import Eye from "./Eye";
 
 import MainComponent from "./MainComponent";
  
@@ -16,6 +17,7 @@ const App = () => {
       {/* <MainComponentRenderer/> */}
       {/* <Home/> */}
       <Alpha/>
+      {/* <Eye/> */}
        
     </>
   );

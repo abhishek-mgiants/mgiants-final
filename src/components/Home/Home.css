@@ -96,26 +96,38 @@ color: white;
 }
 
 .mgiants-logo img{
-    margin-top: 120px;
+    margin-top: 100px;
      
      width: 242px;
      height: 240px;
 }
+.catchy-line{
+    
+    margin-bottom: 30px;
+}
 .catchy-line h2{
-    margin-top:100px ;
+    margin-top:50px ;
     font-family: Oswald;
     font-weight: bold;
     margin-left: 25px;
+    font-size: 32px;
+    letter-spacing: 3px;
+    line-height: 40px;
  
+}
+.home-aboutus-cta{
+    
+    margin-bottom: 120px;
 }
 .home-aboutus-cta button{
     color: white;
     background-color: olive;
-    width: 190px;
-    height: 46px;
+    width: 130px;
+    height: 36px;
     margin-left: 29px;
-    font-size: 22px;
-    margin-top: 30px;
+    font-size: 18px;
+    /* margin-top: 30px; */
+    
     
 }
 .home-aboutus-cta button:hover{

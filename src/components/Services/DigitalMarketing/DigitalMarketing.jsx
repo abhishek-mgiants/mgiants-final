@@ -9,7 +9,7 @@ const DigitalMarketing = (props) => {
   const handleItemClick = (content, position) => {
     setBannerContent(content);
     setShowModal(true);
-    setTriangleLeft(position); 
+    setTriangleLeft(position);  
   };
 
   const handleModalClose = () => {
@@ -27,11 +27,11 @@ const DigitalMarketing = (props) => {
               </button>
       <div className="digital-container">
         <div className="digital-content-container">
-          <div className="heading">
+          <div className="digital-heading">
             <p>Digital Marketing</p>
           </div>
           <div
-            className="digital-items"
+            className="digital-items digital-seo"
             onClick={() =>
               handleItemClick(
                 [

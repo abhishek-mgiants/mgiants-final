@@ -1,51 +1,73 @@
+
+
 .component-container {
-    transition: opacity 0.5s;
-    opacity: 1;
-  }
-  
-  .component-container.fade-out {
-    opacity: 0;
-  }
-  
-  .component-container.fade-in {
-    opacity: 1;
-  }
-  .buttons-container {
-    position: absolute;
-    top: 90%;
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+
+.component-container.fade-out {
+  opacity: 0;
+}
+
+.component-container.fade-in {
+  opacity: 1;
+}
+
+.buttons-container {
+  position: absolute;
+  top: 90%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
   z-index: 10;
-  }
-  
-  .component-button {
-    
-   
-    border: none;
-    
-   
-    color: rgb(65, 65, 65); 
-    padding-top: 10px;
-    font-size: 18px;
-    cursor: pointer;
-    margin: 0 20px;
-    transition: all 0.4s;
-  }
-  .component-button:hover{
-    
-    filter: drop-shadow(0 5px 20px white);
+}
+
+.component-button {
+  border: none;
+  color: rgb(65, 65, 65);
+  padding-top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 20px;
+  transition: all 0.4s;
+}
+
+.component-button:hover {
+  filter: drop-shadow(0 5px 20px white);
+  color: cyan;
+  font-weight: 600;
+}
+
+.component-button.active {
+  border-top: 3px solid white;
+  filter: drop-shadow(0 5px 20px white);
+  color: cyan;
+  font-weight: 600;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  /* Mobile screen styles */
+
+
+  .mobile-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+    font-weight: bold;
     color: cyan;
-    font-weight: 600;
+    font-family: Oswald;
+    letter-spacing: 2px;
   }
-  
-  .component-button.active {
-    border-top: 3px solid white;
-    filter: drop-shadow(0 5px 20px white);
-    color: cyan;
-    font-weight: 600;
-    
-  }
-  
-  
+}
+
+
+
+
+
+
+

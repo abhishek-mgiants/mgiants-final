@@ -1,38 +1,134 @@
-.web-container{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .webdev-container {
     background-image: url('src/assets/WebDevelopment.png');
     background-repeat: no-repeat;
     background-attachment: local;
-    background-size: cover;
-    height: 100vh;
+    background-size: 100vw 100vh;
+    height: 92vh;
+    width: 100vw;
     display: flex;
     justify-content: left;
-    align-items: center;
-}
-.web-content-container{
+    align-items: center; 
+  }
+  
+  .webdev-content-container {
     color: aliceblue;
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     width: 600px;
-    height: 300px;
+    height: 200px;
     margin-top: 50px;
-    gap: 10px;
-
-}
-.items{
+    margin-left: 7%;
     
-    text-align: right;
-    padding-left: 50px;
+    margin-bottom: 200px;
+  }
+  
+  .webdev-items {
+    text-align: left;
     font-size: 1.1rem;
-    margin-left: 5%;
-    
-
-    
-}
-.heading{
-    
+    cursor: pointer;
+  }
+  
+  .webdev-heading {
     grid-column-start: 1;
     grid-column-end: 4;
     color: cyan;
-   text-align: left;
-    
-}
+    font-size: 32px;
+  }
+  
+  p {
+    text-align: left;
+  }
+  
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; 
+  }
+  
+  .modal {
+    position: relative;
+    border: 1px solid cyan;
+    background-color: #000000;
+    width: 600px;
+    margin-top: 200px;
+    margin-right: 430px;
+    animation: modal-appear 0.5s ease-in;
+  }
+  
+  .modal::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: var(--triangle-left, 2.28%); /* Use the CSS variable here with a default value */
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid cyan;
+  }
+  
+  @keyframes modal-appear {
+    0% {
+      opacity: 0;
+      transform: translate(-10%, -60%, -1%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0.5%, 0.5%, 0.5%);
+    }
+  }
+  
+  .modal-content {
+    padding: 20px;
+    color: wheat;
+  }
+  
+  .modal ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .modal ul li {
+    margin-bottom: 10px;
+  }
+  
+  .modal h3 {
+    margin: 0 0 5px;
+    font-size: larger;
+    font-weight: bold;
+    color: cyan;
+  }
+  
+  .modal p {
+    margin: 0;
+  }
+  
+  .back-button{
+    position: relative;
+    top: 90%;
+    color: rgb(184, 249, 249);
+    font-size: 25px;
+    transition: all 0.3s;
+    margin-left: 80vw;
+    z-index: 9999; 
+  }
+  .back-button:hover{
+    transform: scale(1.5);
+    color: cyan;
+  }
+  

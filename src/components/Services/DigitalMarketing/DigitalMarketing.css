@@ -35,10 +35,11 @@
   cursor: pointer;
 }
 
-.heading {
+.digital-heading {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
   color: cyan;
+  font-size: 32px;
 }
 
 p {

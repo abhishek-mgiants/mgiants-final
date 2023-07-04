@@ -21,57 +21,35 @@ const Alpha = () => {
   const [buttonText, setButtonText] = useState('Start');
   const [fadeIn, setFadeIn] = useState(true);
 
-//   const handleButtonClick = () => {
-//     const currentIndex = currentComponent.id - 1;
-//     const nextIndex = (currentIndex + 1) % components.length;
-
-//     setFadeIn(false); // Trigger fade-out animation
-//     setTimeout(() => {
-//       setCurrentComponent(components[nextIndex]);
-//       setFadeIn(true); // Trigger fade-in animation
-//     }, 500); // Delay to allow fade-out animation to complete
-
-//     if (nextIndex === 0) {
-//       setButtonText('Start');
-//     } else {
-//       setButtonText('Next');
-//     }
-//   };
-const handleButtonClick = (id) => {
+  const handleButtonClick = (id) => {
     const selectedComponent = components.find((component) => component.id === id);
-    // setCurrentComponent(selectedComponent);
-        setFadeIn(false); // Trigger fade-out animation
+    setFadeIn(false); // Trigger fade-out animation
     setTimeout(() => {
-       setCurrentComponent(selectedComponent);
+      setCurrentComponent(selectedComponent);
       setFadeIn(true); // Trigger fade-in animation
     }, 300); // Delay to allow fade-out animation to complete
   };
 
   return (
     <div className="alpha-container">
-      <div
-        className={`component-container ${fadeIn ? 'fade-in' : 'fade-out'}`}
-      >
-        {currentComponent.component}
-        <div className="buttons-container">
-        {components.map((component) => (
-          <button
-            key={component.id}
-            className={`component-button ${
-              component.id === currentComponent.id ? 'active' : ''
-            }`}
-            onClick={() => handleButtonClick(component.id)}
-          >
-            {component.name}
-          </button>
-        ))}
-      </div>
-      </div>
-
-      {/* <button className="start-button" onClick={handleButtonClick}>
-        {currentComponent.name}
-      </button> */}
-     
+      {window.innerWidth > 600 ? (
+        <div className={`component-container ${fadeIn ? 'fade-in' : 'fade-out'}`}>
+          {currentComponent.component}
+          <div className="buttons-container">
+            {components.map((component) => (
+              <button
+                key={component.id}
+                className={`component-button ${component.id === currentComponent.id ? 'active' : ''}`}
+                onClick={() => handleButtonClick(component.id)}
+              >
+                {component.name}
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div className="mobile-message">We must request you to find a larger screen. <br/> You won't be disappointed</div>
+      )}
     </div>
   );
 };

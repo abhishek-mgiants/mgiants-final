@@ -11,11 +11,11 @@ const Services2 = () => {
   const [showComponent, setShowComponent]= useState(false);
   const [showServiceContainer, setShowServiceContainer]=useState(true);
   const servicesData = [
-    { name: 'Digital Marketing', imgPath: 'src/assets/digitalicon.png', id: 1, path: '/digitalmarketing' },
-    { name: 'Graphic Design', imgPath: 'src/assets/graphicicon.png', id: 2, path: '/graphicdesign' },
-    { name: 'Web Development', imgPath: 'src/assets/webicon.png', id: 3, path: '/webdevelopment' },
-    { name: 'App Development', imgPath: 'src/assets/appicon.png', id: 4, path: '/appdevelopment' },
-    { name: 'Branding', imgPath: 'src/assets/brandicon.png', id: 5, path: '/branding' }
+    { name: 'Digital Marketing', imgPath: 'https://github.com/abhishek-mgiants/mgiants-final/blob/master/src/assets/digitalicon.png?raw=true', id: 1, path: '/digitalmarketing' },
+    { name: 'Graphic Design', imgPath: 'https://github.com/abhishek-mgiants/mgiants-final/blob/master/src/assets/graphicicon.png?raw=true', id: 2, path: '/graphicdesign' },
+    { name: 'Web Development', imgPath: 'https://github.com/abhishek-mgiants/mgiants-final/blob/master/src/assets/webicon.png?raw=true', id: 3, path: '/webdevelopment' },
+    { name: 'App Development', imgPath: 'https://github.com/abhishek-mgiants/mgiants-final/blob/master/src/assets/appicon.png?raw=true', id: 4, path: '/appdevelopment' },
+    { name: 'Branding', imgPath: 'https://github.com/abhishek-mgiants/mgiants-final/blob/master/src/assets/brandicon.png?raw=true', id: 5, path: '/branding' }
   ];
 
   const initialIdArray = servicesData.map((image) => image.id);

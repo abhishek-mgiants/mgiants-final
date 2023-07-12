@@ -54,14 +54,40 @@
 
   .mobile-message {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    height: 80vh;
+    width: 80vw;
+    margin: 20px auto;
+    font-size: 26px;
     font-weight: bold;
     color: cyan;
     font-family: Oswald;
     letter-spacing: 2px;
+    border: 2px solid cyan;
+    border-radius: 14px;
+    box-shadow: 0px 5px 20px white;
+    animation-name: popup;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ;
+
+
+  }
+  .mobile-message img{
+    width: 60%;
+    height: 200px;
+    /* border: 1px solid red; */
+  }
+  @keyframes popup {
+    from{}
+    to{
+      transform: scale(0.7);
+      border-radius: 80%;
+    }
   }
 }
 

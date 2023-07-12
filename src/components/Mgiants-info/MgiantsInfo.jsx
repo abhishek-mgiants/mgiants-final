@@ -27,7 +27,7 @@ const MgiantsInfo = (props) => {
               </button>
       <div className="mgiantsInfo-container">
         <div className="mgiantsInfo-content-container">
-          <div className="heading">
+          <div className="mgiants-heading">
             <p>Mgiants International</p>
           </div>
           <div

@@ -36,22 +36,22 @@ const WebDevelopment = (props) => {
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'Social Media Marketing', description: 'Promoting products and services on social media platforms' },
-                  { id: 2, title: 'Email Marketing', description: 'Sending targeted emails to a specific audience' },
+                  { id: 1, title: 'Web Design', description: 'A process of planning, conceptualizing, and implementingthe plan for designing a website in a way that is functional and offers a good user experience.' },
+                
                 ],
                 '2.29%'
               )
             }
           >
-            Web Development
+            Web Design
           </div>
           <div
             className="webdev-items"
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'Pay-per-Click Advertising', description: 'Paying for ads based on clicks received' },
-                  { id: 2, title: 'Display Advertising', description: 'Promoting products or services through visual ads' },
+                  { id: 1, title: 'Web Hosting', description: 'The facilities required to create and maintain a site and makes it accessible on the World Wide Web.' },
+                
                 ],
                 '50%'
               )

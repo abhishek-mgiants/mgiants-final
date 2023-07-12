@@ -11,9 +11,7 @@
   height: 70vh; 
   max-width: 100%;
   overflow: hidden;
-  
   padding-top: 130px; 
-  
 }
 
 .about-content-container {
@@ -24,7 +22,6 @@
   align-items: center;
   width: 90%; 
   padding: 0 20px;
-  
 }
 
 .item {

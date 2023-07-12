@@ -23,8 +23,9 @@
   grid-template-rows: 1fr 1fr;
   width: 600px;
   height: 200px;
-  margin-top: 50px;
   margin-left: 10%;
+  margin-bottom: 100px;
+  border: 1px solid red;
   
   
 }
@@ -36,10 +37,11 @@
   
 }
 
-.heading {
+.mgiants-heading {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
   color: cyan;
+  font-size: 32px;
 }
 
 p {
@@ -66,6 +68,7 @@ p {
   margin-top: 300px;
   margin-right: 430px;
   animation: modal-appear 0.5s ease-in;
+  
 }
 
 .modal::before {

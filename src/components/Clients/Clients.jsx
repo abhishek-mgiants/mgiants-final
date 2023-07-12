@@ -15,7 +15,7 @@ const Clients = () => {
 
   return (
     <div className="clients-wrapper">
-      <h2 className="clients-heading">Our Clients</h2>
+      {/* <h2 className="clients-heading">Our Clients</h2> */}
       <div className="clients-container">
         {clientsData.map((client) => (
           <div className="client-cell" key={client.id}>

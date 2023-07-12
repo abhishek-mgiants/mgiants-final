@@ -35,8 +35,7 @@ const Branding = (props) => {
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'SEO', description: 'Search Engine Optimization' },
-                  { id: 2, title: 'Content Marketing', description: 'Creating and distributing valuable content' },
+                  { id: 1, title: 'Brand Name', description: 'A name legally registered as a trademark, used by a manufacturer or merchant to identify its products distinctively.' },
                 ],
                 '2.28%'
               )
@@ -49,8 +48,7 @@ const Branding = (props) => {
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'Social Media Marketing', description: 'Promoting products and services on social media platforms' },
-                  { id: 2, title: 'Email Marketing', description: 'Sending targeted emails to a specific audience' },
+                  { id: 1, title: 'Brand Identity Items', description: 'Brand elements are the unique aspects of your brand, like name, logo, color schemes, etc, that create a cohesive, recognizable image for your business and extend into everything you create.' },
                 ],
                 '50%'
               )
@@ -63,8 +61,8 @@ const Branding = (props) => {
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'Pay-per-Click Advertising', description: 'Paying for ads based on clicks received' },
-                  { id: 2, title: 'Display Advertising', description: 'Promoting products or services through visual ads' },
+                  { id: 1, title: 'Brand Style Guide', description: 'A brand style guide is a holistic set of standards that defines your companys branding.' },
+                
                 ],
                 '90%'
               )

@@ -30,27 +30,13 @@ const AppDevelopment = (props) => {
           <div className="heading">
             <p>App Development</p>
           </div>
+        
           <div
             className="appdeve-items"
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'SEO', description: 'Search Engine Optimization' },
-                  { id: 2, title: 'Content Marketing', description: 'Creating and distributing valuable content' },
-                ],
-                '2.28%'
-              )
-            }
-          >
-            
-          </div> 
-          <div
-            className="appdeve-items"
-            onClick={() =>
-              handleItemClick(
-                [
-                  { id: 1, title: 'Social Media Marketing', description: 'Promoting products and services on social media platforms' },
-                  { id: 2, title: 'Email Marketing', description: 'Sending targeted emails to a specific audience' },
+                  { id: 1, title: 'iOS', description: 'Creating applications for devices that run on the Iphone Operating platform.' },
                 ],
                 '30%'
               )
@@ -63,8 +49,7 @@ const AppDevelopment = (props) => {
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'Pay-per-Click Advertising', description: 'Paying for ads based on clicks received' },
-                  { id: 2, title: 'Display Advertising', description: 'Promoting products or services through visual ads' },
+                  { id: 1, title: 'Android', description: 'Creating applications for devices that run on the Android platform.' },
                 ],
                 '80%'
               )

@@ -35,7 +35,7 @@ const DigitalMarketing = (props) => {
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'SEO', description: 'Search Engine Optimization' },
+                  { id: 1, title: 'SEO', description: 'A paid method of reaching targeted Audiences.' },
                   { id: 2, title: 'Content Marketing', description: 'Creating and distributing valuable content' },
                 ],
                 '2.28%'
@@ -49,8 +49,8 @@ const DigitalMarketing = (props) => {
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'Social Media Marketing', description: 'Promoting products and services on social media platforms' },
-                  { id: 2, title: 'Email Marketing', description: 'Sending targeted emails to a specific audience' },
+                  { id: 1, title: 'Social Media Marketing', description: 'A marketing strategy that helps the website appear in relevant search results in search engines like Google.' },
+                  { id: 2, title: 'Email Marketing', description: 'A Direct marketing strategy surrounding sending emails to current and potential customers that lets businesses to increase their brand awareness, driving engagement, and nurturing leads' },
                 ],
                 '50%'
               )

@@ -36,8 +36,7 @@ const DigitalMarketing = (props) => {
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'Social Media Marketing', description: 'Promoting products and services on social media platforms' },
-                  { id: 2, title: 'Email Marketing', description: 'Sending targeted emails to a specific audience' },
+                  { id: 1, title: 'Logo Design', description: 'A brand mark (logo) for your company is an unique identification mark.' },
                 ],
                 '2.28%'
               )
@@ -50,8 +49,7 @@ const DigitalMarketing = (props) => {
             onClick={() =>
               handleItemClick(
                 [
-                  { id: 1, title: 'Pay-per-Click Advertising', description: 'Paying for ads based on clicks received' },
-                  { id: 2, title: 'Display Advertising', description: 'Promoting products or services through visual ads' },
+                  { id: 1, title: 'Editorial', description: 'The creation and production of all kinds of editorial publications, such as magazines and brochure.' },
                 ],
                 '45%'
               )

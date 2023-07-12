@@ -28,24 +28,29 @@ const teamMembers = [
   },
 ];
 
-const OurTeam = () => {
+const OurTeam = (props) => {
   const renderTeamMembers = () => {
     return teamMembers.map((member) => (
       <div className="team-box" key={member.id}>
         <div className="overlay-top">{member.name}</div>
         <div className="overlay-bottom">{member.designation}</div>
-        <img src={member.imgPath} alt={member.name} />
+        <img src={member.imgPath} alt={member.name} /> 
       </div>
     ));
   };
 
   return (
+ <> <button className='mgiants-back-button'  onClick={props.handleBackClick} >
+ <i className="fa-solid fa-circle-left"></i>
+ </button>
     <div className="main-container">
       <div className="header-container">
         <h2 className="heading">Our Team</h2>
       </div>
       <div className="teams-container">{renderTeamMembers()}</div>
     </div>
+ 
+ </>
   );
 };
 

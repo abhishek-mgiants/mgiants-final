@@ -35,12 +35,12 @@ const Aboutus = () => {
     </div>
   }
    {
-    showOurTeam && <div style={{height:'100vh'}}>
+    showOurTeam && <div style={{height:'100vh', position:'relative'}}>
       
-      <OurTeam />
-      <button onClick={handleShowInfo} style={{color:'cyan', fontSize:'30px', fontWeight:'bolder'}}>
+      <OurTeam handleBackClick={handleShowInfo} />
+      {/* <button onClick={handleShowInfo} >
               <i className="fa-solid fa-circle-left"></i>
-              </button>
+              </button> */}
       
     </div>
   }

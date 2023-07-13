@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
   }
   
   .branding-container {
-    background-image: url('./assets/Service_Pages_background/Branding.png');
+    background-image: url('https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Service_Pages_background/Branding.png?raw=true');
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: 100vw 100vh;
@@ -40,6 +41,9 @@
     grid-column-end: 4;
     color: cyan;
     font-size: 32px;
+    font-family: Oswald;
+    font-weight: bold;
+    letter-spacing: 2px;
   }
   
   p {

@@ -64,7 +64,7 @@ const Branding = (props) => {
                   { id: 1, title: 'Brand Style Guide', description: 'A brand style guide is a holistic set of standards that defines your companys branding.' },
                 
                 ],
-                '90%'
+                '80%'
               )
             }
           >

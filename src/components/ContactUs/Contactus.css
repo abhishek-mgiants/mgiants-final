@@ -61,13 +61,14 @@ input[type='email'] {
   border: none;
   border-bottom: 1px solid white;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 8px;
 }
 
 textarea {
   background-color: black;
   border: none;
   border-bottom: 1px solid white;
+
 }
 
 input[type='submit'] {

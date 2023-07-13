@@ -36,7 +36,7 @@ const Contactus = () => {
               </select>
               <hr /> */}
 
-              <label htmlFor="Message">Share your thoughts:</label>
+              <label style={{marginBottom:'8px'}} htmlFor="Message">Share your thoughts:</label>
               <textarea name="Message" id="textmessage" cols="30" rows="4"></textarea>
               <input type="submit" />
             </form>

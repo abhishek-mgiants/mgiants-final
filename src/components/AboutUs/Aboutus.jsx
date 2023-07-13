@@ -48,10 +48,10 @@ const Aboutus = () => {
    {showInfo && <div className='about-container' >
           <div className='about-content-container' >
               <div  className='item about-left'>
-                  <img className='about-img' onClick={handleMgiantsClick} src="https://github.com/abhishek-mgiants/mgiants-final/blob/master/src/assets/mgiantsSky.jpg?raw=true" alt="" />
+                  <img className='about-img' onClick={handleMgiantsClick} src="./assets/AboutUs/mgiantsSky.jpg" alt="" />
               </div>
               <div className='item about-right'>
-                  <img className='about-img' onClick={handleOurTeamClick} src="https://github.com/abhishek-mgiants/mgiants-final/blob/master/src/assets/meetteam.png?raw=true" alt="" />
+                  <img className='about-img' onClick={handleOurTeamClick} src="./assets/AboutUs/meetteam.png" alt="" />
         </div>
            
           </div>

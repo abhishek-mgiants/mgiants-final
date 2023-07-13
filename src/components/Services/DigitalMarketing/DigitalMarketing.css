@@ -5,7 +5,7 @@
 }
 
 .digital-container {
-  background-image: url('https://github.com/abhishek-mgiants/mgiants-final/blob/master/src/assets/DigitalMarketingBg.png?raw=true');
+  background-image: url('./assets/Service_Pages_background/DigitalMarketingBg.png');
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: 100vw 100vh;

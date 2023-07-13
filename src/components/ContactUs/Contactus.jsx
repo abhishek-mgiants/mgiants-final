@@ -43,7 +43,7 @@ const Contactus = () => {
           </div>
 
           <div className="item contact-img-container">
-            <img src="https://github.com/abhishek-mgiants/mgiants-final/blob/master/src/assets/ContactUsAsset.png?raw=true" alt="" />
+            <img src="./assets/Home/ContactUsAsset.png" alt="" />
           </div>
         </div>
       </div>

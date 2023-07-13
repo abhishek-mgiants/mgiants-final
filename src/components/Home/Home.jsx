@@ -39,7 +39,7 @@ const Home = () => {
 
           <div className='home-info-container'>
         <div className="mgiants-logo">
-          <img src="https://github.com/abhishek-mgiants/mgiants-final/blob/master/src/assets/logoFormats-03.png?raw=true" alt="" />
+          <img src="./assets/Home/logoFormats-03.png" alt="" />
         </div>
         <div className="catchy-line">
         <h2 className="text-5xl text-cyan-500 ">

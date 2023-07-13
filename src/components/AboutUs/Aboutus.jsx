@@ -2,9 +2,11 @@ import './AboutUs.css'
 import OurTeam from '../OurTeam/OurTeam'
 import MgiantsInfo from '../Mgiants-info/MgiantsInfo'
 import { useState,useEffect } from 'react'
-import Aos from 'aos'
+import AOS from 'aos'
 import 'aos/dist/aos.css'
 const Aboutus = () => {
+  AOS.init({duration:1000})
+  
   const [showInfo, setShowInfo]=useState(true);
   const [showMgiants, setShowMgiants]= useState(false);
   const [showOurTeam, setShowOurTeam]= useState(false);
@@ -47,11 +49,23 @@ const Aboutus = () => {
   
    {showInfo && <div className='about-container' >
           <div className='about-content-container' >
-              <div  className='item about-left'>
-                  <img className='about-img' onClick={handleMgiantsClick} src="https://raw.githubusercontent.com/abhishek-mgiants/mgiants-final/master/assets/AboutUs/mgiantsSky.jpg" alt="" />
+              <div data-aos="fade-right"  className='item about-left'>
+                 
+                 <div className='mg'>
+                 <img className='about-img ' onClick={handleMgiantsClick} src="https://raw.githubusercontent.com/abhishek-mgiants/mgiants-final/master/assets/AboutUs/mgiantsSky.jpg" alt="" />
+                 <div className='aboutUs-overlay1'>
+                   <p>Mgiants International</p>
+                  </div>
+                 </div>
               </div>
-              <div className='item about-right'>
+              <div data-aos="fade-left" className='item about-right'>
+                  <div className='ot'>
                   <img className='about-img' onClick={handleOurTeamClick} src="https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/AboutUs/meetteam.png?raw=true" alt="" />
+
+                  <div className='aboutUs-overlay1'>
+                   <p>Our Team</p>
+                  </div>
+                  </div>
         </div>
            
           </div>

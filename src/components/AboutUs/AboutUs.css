@@ -31,12 +31,16 @@
   justify-content: center;
   align-items: center;
   
+  
+/* border: 1px solid red; */
 }
 .about-left{
   margin-left: 200px;
+  position: relative;
 }
 .about-right{
   margin-right: 200px;
+  position: relative;
 }
 
 .about-img {
@@ -53,4 +57,35 @@
   cursor: pointer;
 }
 
+.aboutUs-overlay1 {
+ width: 250px;
+ height: 40px;
+  position: absolute;
+  bottom: 0;
+ /* border: 1px solid red; */
+ z-index: 9999;
+ /* visibility: hidden; */
+ transition: all 0.7s;
+ background-color: rgba(0, 0, 0, 0.8);
+
+ opacity: 0;
+ margin-right: 40px;
+}
+.aboutUs-overlay1 p{
+  font-size: 22px;
+  text-align: center;
+  color:cyan ;
+
+}
+.mg:hover .aboutUs-overlay1{
+  transform: translateY(-110px) scale(1.1);
+  visibility: visible;
+  opacity: 1;
+  
+}
+.ot:hover .aboutUs-overlay1{
+  transform: translateY(-110px) scale(1.1);
+  visibility: visible;
+  opacity: 1;
+}
 

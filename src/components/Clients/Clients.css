@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 15vh;
   }
   
@@ -17,8 +17,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 806px;
-    height: 406px;
+    width: 800px;
+    height: 400px;
     gap: 40px;
     background-color: #000;
     border-radius: 5px;
@@ -35,18 +35,22 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background-color: #000;
+    background-color: white;
     /* border: 2px solid #fff; */
     /* border-radius: 50%; */
-    transition: all 0.3s ease-in-out; /* Adding transition property */
+    transition: all 0.5s ease-in-out; /* Adding transition property */
     border: 0.5px dotted grey;
+  }
+  .client-cell img{
+    border-radius: 50% ;
   }
   
   .client-cell:hover {
     border: 3px solid cyan;
-    transform: scale(1.05); /* Enlarge the element slightly */
+    transform: scale(1.1); /* Enlarge the element slightly */
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.6); /* Add a glowing effect */
-    background-color: rgba(0, 0, 0, 0.8); /* Darken the background */
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255); /* Darken the background */
   }
   
   

@@ -1,7 +1,10 @@
 import  { useState } from 'react';
 import './Contactus.css';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Contactus = () => {
+  AOS.init({duration:1000})
   const [hoveredIcon, setHoveredIcon] = useState(null);
 
   const handleIconHover = (iconName) => {
@@ -43,7 +46,7 @@ const Contactus = () => {
           </div>
 
           <div className="item contact-img-container">
-            <img src="./assets/Home/ContactUsAsset.png" alt="" />
+            <img data-aos='zoom-in-left' src="https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Home/ContactUsAsset.png?raw=true" alt="" />
           </div>
         </div>
       </div>

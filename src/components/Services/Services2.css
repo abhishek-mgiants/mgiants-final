@@ -63,7 +63,7 @@
 }
 
 .image-name {
-  font-size: 28px; 
+  font-size: 22px; 
   color: cyan;
   display: flex;
   justify-content: left;
@@ -100,12 +100,12 @@
   transition: transform 0.7s;
 }
 
-.image-overlay p {
+/* .image-overlay p {
   font-size: 22px; 
   color: cyan;
   text-align: center;
   padding-top: 20px; 
-}
+} */
 
 .component-modal {
   width: 100vw; 

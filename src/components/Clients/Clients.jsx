@@ -6,14 +6,14 @@ import 'aos/dist/aos.css'
 const Clients = () => {
   AOS.init({duration:1000})
   const clientsData = [
-    { id: 1, name: "Company 1", imgPath:'./assets/Clients/APS.jpg' },
-    { id: 2, name: "Company 2", imgPath:'./assets/Clients/CMS.jpg' },
-    { id: 3, name: "Company 3", imgPath:'./assets/Clients/Cosmos.jpg' },
-    { id: 4, name: "Company 4", imgPath:'./assets/Clients/Dog.png' },
-    { id: 5, name: "Company 5", imgPath:'./assets/Clients/DOorLO.png' },
-    { id: 6, name: "Company 6", imgPath:'./assets/Clients/Patliputra_logistics.png' },
-    { id: 7, name: "Company 7", imgPath:'./assets/Clients/Propmine.png' },
-    { id: 8, name: "Company 8", imgPath:'./assets/Clients/TaxVITT.jpg' },
+    { id: 1, name: "Company 1", imgPath:'https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Clients/APS.jpg?raw=true' },
+    { id: 2, name: "Company 2", imgPath:'https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Clients/CMS.jpg?raw=true' },
+    { id: 3, name: "Company 3", imgPath:'https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Clients/Cosmos.jpg?raw=true' },
+    { id: 4, name: "Company 4", imgPath:'https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Clients/DOorLo.png?raw=true' },
+    { id: 5, name: "Company 5", imgPath:'https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Clients/Dog.png?raw=true' },
+    { id: 6, name: "Company 6", imgPath:'https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Clients/Patliputra_logistics.png?raw=true' },
+    { id: 7, name: "Company 7", imgPath:'https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Clients/Propmine.png?raw=true' },
+    { id: 8, name: "Company 8", imgPath:'https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Clients/TaxVITT.jpg?raw=true' },
   ];
 
   return (

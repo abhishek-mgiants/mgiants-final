@@ -47,9 +47,9 @@
   
   .client-cell:hover {
     border: 3px solid cyan;
-    transform: scale(1.1); /* Enlarge the element slightly */
+    transform: scale(1.3); /* Enlarge the element slightly */
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.6); /* Add a glowing effect */
-    border-radius: 50%;
+    /* border-radius: 12px; */
     background-color: rgba(255, 255, 255); /* Darken the background */
   }
   

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Alpha.css'; // Import the CSS file for styling
 
 import Aboutus from './components/AboutUs/Aboutus';
-import ContactUs from './components/ContactUs/ContactUs';
+import ContactUs from './components/ContactUs/Contactus';
 import NavBar from './components/NavBar';
 import Services2 from './components/Services/Services2';
 import Clients from './components/Clients/Clients';

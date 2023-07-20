@@ -24,16 +24,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr  ;
     grid-template-rows: 1fr 1fr  ;
+    /* border:  1px solid red; */
     
 }
 .first{
    color: white;
+   /* border: 1px solid red; */
     
 }
 .fa-whatsapp{
     margin-top: 46vh;
     margin-left: 12vw ;
     transition: all 0.4s;
+   
 }
 .fa-whatsapp:hover{
     transform: scale(1.5);
@@ -42,6 +45,7 @@
 
 .second{
 color: white;
+ /* border: 1px solid red; */
  
 }
 .fa-linkedin{

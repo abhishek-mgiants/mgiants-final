@@ -1,9 +1,11 @@
 
 import './Home.css'
-const Home = () => {
-  const handleHomeCta=()=>{
-      window.location.href='#aboutUs'
-  }
+const Home = ({onCTAClick}) => {
+  const handleCTAClick = () => {
+    // Call the function passed from the Alpha component and pass the ID of the "About Us" component
+    onCTAClick(2); // Assuming the ID of the "About Us" component is 2
+  };
+
   const handleWhatsAppClick=()=>{
     window.location.href="https://wa.me/917017170642"
   }
@@ -15,7 +17,7 @@ const Home = () => {
   }
   const handleFacebookClick=()=>{
     window.location.href="https://www.facebook.com/profile.php?id=100091805007158"
-  }
+  } 
   return (
    
     <div className='main-home-container'>
@@ -48,7 +50,7 @@ const Home = () => {
                   </h2>
         </div>
         <div className="home-aboutus-cta">
-              <button onClick={handleHomeCta} > Lets Connect</button>
+              <button onClick={handleCTAClick}  > Lets Connect</button>
         </div>
           </div>
     </div>

@@ -19,7 +19,7 @@ const Aboutus = () => {
     setShowInfo(!showInfo);
     setShowOurTeam(!showOurTeam); 
   }
-  const handleShowInfo=()=>{
+  const handleShowInfo=()=>{ 
     setShowInfo(!showInfo);
     setShowMgiants(false);
     setShowOurTeam(false);

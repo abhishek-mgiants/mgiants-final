@@ -9,18 +9,6 @@ import Clients from './components/Clients/Clients';
 import Home from './components/Home/Home';
 
 const Alpha = () => {
-  const components = [
-    { id: 1, name: 'Home', component: <Home /> },
-    { id: 2, name: 'About Us', component: <Aboutus /> },
-    { id: 3, name: 'Services', component: <Services2 /> },
-    { id: 4, name: 'Clients', component: <Clients /> },
-    { id: 5, name: 'Contact Us', component: <ContactUs /> },
-  ];
-
-  const [currentComponent, setCurrentComponent] = useState(components[0]);
-  const [buttonText, setButtonText] = useState('Start');
-  const [fadeIn, setFadeIn] = useState(true);
-
   const handleButtonClick = (id) => {
     const selectedComponent = components.find((component) => component.id === id);
     setFadeIn(false); // Trigger fade-out animation
@@ -29,6 +17,20 @@ const Alpha = () => {
       setFadeIn(true); // Trigger fade-in animation
     }, 300); // Delay to allow fade-out animation to complete
   };
+
+  const components = [
+    { id: 1, name: 'Home', component: <Home onCTAClick={handleButtonClick} /> },
+    { id: 2, name: 'About Us', component: <Aboutus /> },
+    { id: 3, name: 'Services', component: <Services2 /> },
+    { id: 4, name: 'Clients', component: <Clients /> },
+    { id: 5, name: 'Contact Us', component: <ContactUs /> }, 
+  ];
+
+  const [currentComponent, setCurrentComponent] = useState(components[0]);
+  const [buttonText, setButtonText] = useState('Start');
+  const [fadeIn, setFadeIn] = useState(true);
+
+  
 
   return (
     <div className="alpha-container">

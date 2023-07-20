@@ -24,8 +24,8 @@
   grid-template-rows: 1fr 1fr;
   width: 600px;
   height: 200px;
-  margin-left: 10%;
-  margin-bottom: 100px;
+  margin-left: 15%;
+  margin-bottom: 200px;
   /* border: 1px solid red; */
   
   
@@ -64,7 +64,7 @@ p {
   z-index: 9999; 
 }
 
-.modal {
+.mgiants-modal {
   position: relative;
   border: 1px solid cyan;
   background-color: #000000;
@@ -75,10 +75,10 @@ p {
   
 }
 
-.modal::before {
+.mgiants-modal::before {
   content: '';
   position: relative;
-  top: -15px;
+  top: -38px;
   left: var(--triangle-left, 2.28%); /* Use the CSS variable here with a default value */
   transform: translateX(-50%);
   width: 0;
@@ -104,24 +104,24 @@ p {
   color: wheat;
 }
 
-.modal ul {
+.mgiants-modal ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.modal ul li {
+.mgiants-modal ul li {
   margin-bottom: 10px;
 }
 
-.modal h3 {
+.mgiants-modal h3 {
   margin: 0 0 5px;
   font-size: larger;
   font-weight: bold;
   color: cyan;
 }
 
-.modal p {
+.mgiants-modal p {
   margin: 0;
 }
 

@@ -20,7 +20,7 @@ const Contactus = () => {
       <div className="contact-container">
         <div className="contact-content-container">
           <div className="item contact-form-container">
-            <form action="" className="contact-form">
+            <form action="https://formspree.io/f/mrgwbkbp" method='POST' className="contact-form">
               <h1 className="form-heading">CONTACT US</h1>
 
               <label htmlFor="Name">Name:</label>

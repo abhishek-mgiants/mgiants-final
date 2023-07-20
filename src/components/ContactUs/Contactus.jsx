@@ -4,6 +4,9 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const Contactus = () => {
+  const handleMapClick=()=>{
+    window.location.href="https://goo.gl/maps/Mnmf9JzgmoBPockx9";
+  }
   AOS.init({duration:1000})
   const [hoveredIcon, setHoveredIcon] = useState(null);
 
@@ -57,7 +60,7 @@ const Contactus = () => {
           onMouseLeave={handleIconLeave}
         >
           {hoveredIcon !== 'location' && <i className="fa-solid fa-location-dot contact-icons"></i>}
-          <div className="icon-details">Mgiants </div>
+          <div className="icon-details" onClick={handleMapClick}> Mgiants International</div>
         </div>
         <div
           className={`icon${hoveredIcon === 'phone' ? ' active' : ''} `}
@@ -65,7 +68,7 @@ const Contactus = () => {
           onMouseLeave={handleIconLeave}
         >
           {hoveredIcon !== 'phone' && <i className="fa-solid fa-phone contact-icons"></i>}
-          <div className="icon-details">Phone number</div>
+          <div className="icon-details">+91-7017170642</div>
         </div>
         <div
           className={`icon${hoveredIcon === 'mail' ? ' active' : ''}`}

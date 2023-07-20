@@ -97,7 +97,9 @@ select {
   justify-content: space-between;
    
   width: 800px;
-  margin-left: 35vh;
+  margin-left: 25vh;
+  /* border: 1px solid red; */
+ 
 
 }
 
@@ -109,14 +111,17 @@ select {
   cursor: pointer;
   color: rgb(151, 156, 156);
   min-height: 10vh;
-  margin-left: 70px;
+  margin-left: 60px;
   width: 200px;
+  /* border: 1px solid rgb(255, 217, 0); */
+
  
   
   
 }
 .contact-icons{
   font-size: 1.5rem;
+  /* border: 1px solid red; */
 }
 
 .icon-details {
@@ -125,6 +130,7 @@ select {
   color: wheat;
   visibility: hidden;
   transition: opacity 0.3s ease, font-size 0.3s ease;
+  /* z-index: 9999; */
 }
 
 .icon.active .icon-details {
@@ -133,6 +139,7 @@ select {
   font-size: 18px;
   filter: drop-shadow(0 5px 20px white);
   color: cyan;
+
   
   
 }

@@ -6,7 +6,7 @@
   }
   
   .webdev-container {
-    background-image: url('assets/Service_Pages_background/WebDevelopment.png');
+    background-image: url('/WebDevelopment.png');
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: 100vw 100vh;

@@ -6,7 +6,7 @@
   }
   
   .branding-container {
-    background-image: url('assets/Service_Pages_background/Branding.png');
+    background-image: url('/Branding.png');
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: 100vw 100vh;

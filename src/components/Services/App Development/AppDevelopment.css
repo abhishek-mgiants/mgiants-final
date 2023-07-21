@@ -5,7 +5,7 @@
   }
   
   .appdeve-container {
-    background-image: url('assets/Service_Pages_background/Appdevelopment.png');
+    background-image: url('/Appdevelopment.png');
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: 100vw 100vh;

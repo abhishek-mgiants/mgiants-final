@@ -6,7 +6,7 @@
 
 }
 .main-home-container{
-    background: url("assets/Home/mgiantsbg.jpg");
+    background: url("/mgiantsbg.jpg");
     background-position: center;
     background-size: 80vw 100vh;
     background-repeat: no-repeat;

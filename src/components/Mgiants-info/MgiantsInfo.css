@@ -6,7 +6,7 @@
 }
 
 .mgiantsInfo-container {
-  background-image: url('https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/AboutUs/AboutUsBg.png?raw=true');
+  background-image: url('assets/AboutUs/AboutUsBg.png');
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: 100vw 95vh  ;

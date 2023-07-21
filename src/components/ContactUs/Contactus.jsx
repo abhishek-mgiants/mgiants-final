@@ -49,7 +49,7 @@ const Contactus = () => {
           </div>
 
           <div className="item contact-img-container">
-            <img data-aos='zoom-in-left' src="https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/Home/ContactUsAsset.png?raw=true" alt="" />
+            <img data-aos='zoom-in-left' src="assets/Home/ContactUsAsset.png" alt="" />
           </div>
         </div>
       </div>

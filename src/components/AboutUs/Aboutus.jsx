@@ -52,7 +52,7 @@ const Aboutus = () => {
               <div data-aos="fade-right"  className='item about-left'>
                  
                  <div className='mg'>
-                 <img className='about-img ' onClick={handleMgiantsClick} src="https://raw.githubusercontent.com/abhishek-mgiants/mgiants-final/master/assets/AboutUs/mgiantsSky.jpg" alt="" />
+                 <img className='about-img ' onClick={handleMgiantsClick} src="assets/AboutUs/mgiantsSky.jpg" alt="" />
                  <div className='aboutUs-overlay1'>
                    <p>Mgiants International</p>
                   </div>
@@ -60,7 +60,7 @@ const Aboutus = () => {
               </div>
               <div data-aos="fade-left" className='item about-right'>
                   <div className='ot'>
-                  <img className='about-img' onClick={handleOurTeamClick} src="https://github.com/abhishek-mgiants/mgiants-final/blob/master/assets/AboutUs/meetteam.png?raw=true" alt="" />
+                  <img className='about-img' onClick={handleOurTeamClick} src="assets/AboutUs/meetteam.png" alt="" />
 
                   <div className='aboutUs-overlay1'>
                    <p>Our Team</p>

@@ -45,7 +45,7 @@ const Alpha = () => {
                 onClick={() => handleButtonClick(component.id)}
               >
                 {component.name}
-              </button>
+              </button> 
             ))}
           </div>
         </div>

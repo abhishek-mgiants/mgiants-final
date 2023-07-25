@@ -17,11 +17,11 @@ const Clients = () => {
   ];
 
   return (
-    <div className="clients-wrapper">
+    <div  className="clients-wrapper">
       {/* <h2 className="clients-heading">Our Clients</h2> */}
-      <div className="clients-container">
+      <div data-aos='fade-left' className="clients-container">
         {clientsData.map((client) => (
-          <div data-aos='zoom-in'  className="client-cell" key={client.id}>
+          <div   className="client-cell" key={client.id}>
             {/* <div className="overlay" style={{ backgroundColor: client.color }} /> */}
             {/* <p className="client-name">{client.name}</p>  */}
             <img  src={client.imgPath} alt="" />

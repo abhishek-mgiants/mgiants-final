@@ -61,7 +61,7 @@ p {
   z-index: 9999; 
 }
 
-.modal {
+.digiModal {
   position: relative;
   border: 1px solid cyan;
   background-color: #000000;
@@ -71,7 +71,7 @@ p {
   animation: modal-appear 0.5s ease-in;
 }
 
-.modal::before {
+.digiModal::before {
   content: '';
   position: absolute;
   top: -15px;

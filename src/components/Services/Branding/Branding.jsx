@@ -9,7 +9,7 @@ const Branding = (props) => {
   const handleItemClick = (content, position) => {
     setBannerContent(content);
     setShowModal(true);
-    setTriangleLeft(position); 
+    setTriangleLeft(position);  
   };
 
   const handleModalClose = () => {
@@ -75,7 +75,7 @@ const Branding = (props) => {
 
       {showModal && (
         <div className="modal-backdrop" onClick={handleModalClose}>
-          <div className="modal" style={style}>
+          <div className="brandmodal" style={style}>
             <div className="modal-content">
               <ul>
                 {bannerContent.map((item) => (

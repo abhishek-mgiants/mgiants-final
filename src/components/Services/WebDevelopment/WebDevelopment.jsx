@@ -12,7 +12,7 @@ const WebDevelopment = (props) => {
     setTriangleLeft(position); 
   };
 
-  const handleModalClose = () => {
+  const handleModalClose = () => { 
     setShowModal(false);
   };
 
@@ -53,7 +53,7 @@ const WebDevelopment = (props) => {
                   { id: 1, title: 'Web Hosting', description: 'The facilities required to create and maintain a site and makes it accessible on the World Wide Web.' },
                 
                 ],
-                '50%'
+                '60%'
               )
             }
           >
@@ -64,7 +64,7 @@ const WebDevelopment = (props) => {
 
       {showModal && (
         <div className="modal-backdrop" onClick={handleModalClose}>
-          <div className="modal" style={style}>
+          <div className="webmodal" style={style}>
             <div className="modal-content">
               <ul>
                 {bannerContent.map((item) => (

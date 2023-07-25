@@ -12,10 +12,12 @@ const Services2 = () => {
   const [showServiceContainer, setShowServiceContainer]=useState(true);
   const servicesData = [
     { name: 'Digital Marketing', imgPath: 'assets/ServiceIcons/digitalicon.png', id: 1, path: '/digitalmarketing' },
-    { name: 'Graphic Design', imgPath: 'assets/ServiceIcons/graphicicon.png', id: 2, path: '/graphicdesign' },
+    { name: 'Branding', imgPath: 'assets/ServiceIcons/brandicon.png', id: 2, path: '/branding' }
+    ,
     { name: 'Web Development', imgPath: 'assets/ServiceIcons/webicon.png', id: 3, path: '/webdevelopment' },
     { name: 'App Development', imgPath: 'assets/ServiceIcons/appicon.png', id: 4, path: '/appdevelopment' },
-    { name: 'Branding', imgPath: 'assets/ServiceIcons/brandicon.png', id: 5, path: '/branding' }
+    { name: 'Graphic Design', imgPath: 'assets/ServiceIcons/graphicicon.png', id: 5, path: '/graphicdesign' }
+  
   ];
 
   const initialIdArray = servicesData.map((image) => image.id);

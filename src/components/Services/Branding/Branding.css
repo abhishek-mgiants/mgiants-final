@@ -62,17 +62,17 @@
     z-index: 9999; 
   }
   
-  .modal {
+  .brandmodal {
     position: relative;
     border: 1px solid cyan;
     background-color: #000000;
     width: 600px;
-    margin-top: 200px;
-    margin-right: 430px;
+    margin-top: 120px;
+    margin-right: 40vw;
     animation: modal-appear 0.5s ease-in;
   }
   
-  .modal::before {
+  .brandmodal::before {
     content: '';
     position: absolute;
     top: -15px;
@@ -101,24 +101,24 @@
     color: wheat;
   }
   
-  .modal ul {
+  .brandmodal ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
   
-  .modal ul li {
+  .brandmodal ul li {
     margin-bottom: 10px;
   }
   
-  .modal h3 {
+  .brandmodal h3 {
     margin: 0 0 5px;
     font-size: larger;
     font-weight: bold;
     color: cyan;
   }
   
-  .modal p {
+  .brandmodal p {
     margin: 0;
   }
   

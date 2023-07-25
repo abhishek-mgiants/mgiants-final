@@ -14,7 +14,7 @@ const DigitalMarketing = (props) => {
 
   const handleModalClose = () => {
     setShowModal(false);
-  };
+  }; 
 
   const style = {
     '--triangle-left': triangleLeft,
@@ -77,7 +77,7 @@ const DigitalMarketing = (props) => {
 
       {showModal && (
         <div className="modal-backdrop" onClick={handleModalClose}>
-          <div className="modal" style={style}>
+          <div className="digiModal" style={style}>
             <div className="modal-content">
               <ul>
                 {bannerContent.map((item) => (

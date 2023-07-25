@@ -11,10 +11,11 @@ const AppDevelopment = (props) => {
     setShowModal(true);
     setTriangleLeft(position); 
   };
-
+ 
   const handleModalClose = () => {
     setShowModal(false);
   };
+
 
   const style = {
     '--triangle-left': triangleLeft,
@@ -38,7 +39,7 @@ const AppDevelopment = (props) => {
                 [
                   { id: 1, title: 'iOS', description: 'Creating applications for devices that run on the Iphone Operating platform.' },
                 ],
-                '30%'
+                '10%'
               )
             }
           >
@@ -51,7 +52,7 @@ const AppDevelopment = (props) => {
                 [
                   { id: 1, title: 'Android', description: 'Creating applications for devices that run on the Android platform.' },
                 ],
-                '80%'
+                '60%'
               )
             }
           >
@@ -62,7 +63,7 @@ const AppDevelopment = (props) => {
 
       {showModal && (
         <div className="modal-backdrop" onClick={handleModalClose}>
-          <div className="modal" style={style}>
+          <div className="appmodal" style={style}>
             <div className="modal-content">
               <ul>
                 {bannerContent.map((item) => (

@@ -13,7 +13,7 @@ const DigitalMarketing = (props) => {
   };
 
   const handleModalClose = () => {
-    setShowModal(false);
+    setShowModal(false); 
   };
 
   const style = {
@@ -51,7 +51,7 @@ const DigitalMarketing = (props) => {
                 [
                   { id: 1, title: 'Editorial', description: 'The creation and production of all kinds of editorial publications, such as magazines and brochure.' },
                 ],
-                '45%'
+                '52%'
               )
             }
           >
@@ -62,7 +62,7 @@ const DigitalMarketing = (props) => {
 
       {showModal && (
         <div className="modal-backdrop" onClick={handleModalClose}>
-          <div className="modal" style={style}>
+          <div className="graphicmodal" style={style}>
             <div className="modal-content">
               <ul>
                 {bannerContent.map((item) => (

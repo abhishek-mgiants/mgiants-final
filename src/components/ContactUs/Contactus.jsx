@@ -11,16 +11,38 @@ const Contactus = () => {
   const [hoveredIcon, setHoveredIcon] = useState(null);
 
   const handleIconHover = (iconName) => {
-    setHoveredIcon(iconName);
+    setHoveredIcon(iconName); 
+    console.log(iconName);
   };
 
   const handleIconLeave = () => {
     setHoveredIcon(null);
   };
+  const copyNumber=()=>{
+    const textToCopy = document.getElementById('phNumber').innerText;
+
+            // Create a temporary input element to hold the text
+            const tempInput = document.createElement('input');
+            tempInput.value = textToCopy;
+            document.body.appendChild(tempInput);
+
+            // Select the text inside the input
+            tempInput.select();
+
+            // Copy the selected text to the clipboard
+            document.execCommand('copy');
+
+            // Remove the temporary input element
+            document.body.removeChild(tempInput);
+
+            // Notify the user that the text has been copied (optional)
+            alert('Copied! Contact Us now ' + textToCopy);
+  }
 
   return (
     <>
-      <div className="contact-container">
+    <div data-aos='zoom-in-left'>
+    <div className="contact-container">
         <div className="contact-content-container">
           <div className="item contact-form-container">
             <form action="https://formspree.io/f/mrgwbkbp" method='POST' className="contact-form">
@@ -48,8 +70,8 @@ const Contactus = () => {
             </form>
           </div>
 
-          <div className="item contact-img-container">
-            <img data-aos='zoom-in-left' src="assets/Home/ContactUsAsset.png" alt="" />
+          <div  className="item contact-img-container">
+            <img  src="assets/Home/ContactUsAsset.png" alt="" />
           </div>
         </div>
       </div>
@@ -60,7 +82,7 @@ const Contactus = () => {
           onMouseLeave={handleIconLeave}
         >
           {hoveredIcon !== 'location' && <i className="fa-solid fa-location-dot contact-icons"></i>}
-          <div className="icon-details" onClick={handleMapClick}> Mgiants International</div>
+          <div className="icon-details" onClick={handleMapClick}> Mgiants International PVT LTD </div>
         </div>
         <div
           className={`icon${hoveredIcon === 'phone' ? ' active' : ''} `}
@@ -68,7 +90,7 @@ const Contactus = () => {
           onMouseLeave={handleIconLeave}
         >
           {hoveredIcon !== 'phone' && <i className="fa-solid fa-phone contact-icons"></i>}
-          <div className="icon-details">+91-7017170642</div>
+          <div onClick={copyNumber}  id='phNumber' className="icon-details">+91-7017170642</div>
         </div>
         <div
           className={`icon${hoveredIcon === 'mail' ? ' active' : ''}`}
@@ -76,9 +98,11 @@ const Contactus = () => {
           onMouseLeave={handleIconLeave}
         >
           {hoveredIcon !== 'mail' && <i className="fa-solid fa-envelope contact-icons"></i>}
-          <div className="icon-details">info@mgiants.com</div>
+          <a href='mailto:info@mgiants.com' target='_blank' className="icon-details">info@mgiants.com</a>
         </div>
       </div>
+    </div>
+      
     </>
   );
 };
